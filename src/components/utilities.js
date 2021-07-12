@@ -8,7 +8,6 @@ const Utilities = ({ children }) => {
   return (
     <Breakpoint>
       <main>
-        <h1>Ciarel</h1>
         {children}
       </main>
       <Helmet>

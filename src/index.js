@@ -4,14 +4,17 @@ import { HashRouter as Router } from "react-router-dom";
 
 import Utilities from "./components/utilities";
 import reportWebVitals from "./reportWebVitals";
+import Home from "./routes/home";
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
-      <Utilities />
+      <Utilities>
+        <Home />
+      </Utilities>
     </Router>
   </React.StrictMode>,
-  document.getElementById("baroot")
+  document.getElementById("Ciarel")
 );
 
 // If you want to start measuring performance in your app, pass a function
