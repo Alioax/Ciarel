@@ -7,9 +7,7 @@ import "../styles/blueprint.scss";
 const Utilities = ({ children }) => {
   return (
     <Breakpoint>
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
       <Helmet>
         <title>Ciarel</title>
         <meta
