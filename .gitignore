@@ -2,6 +2,7 @@ it push --set-upstream origin main# See https://help.github.com/articles/ignorin
 
 # dependencies
 /node_modules
+/assets
 /.pnp
 .pnp.js
 
