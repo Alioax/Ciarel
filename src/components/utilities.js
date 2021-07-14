@@ -1,5 +1,5 @@
 import { BreakpointProvider as Breakpoint } from "react-socks";
-import { withRouter } from "react-router-dom";
+// import { withRouter } from "react-router-dom";
 import { Helmet } from "react-helmet";
 
 import "../styles/blueprint.scss";
