@@ -7,7 +7,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+  &:hover {
+    color: inherit;
+  }
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.border-potential-right {
+  border-width: 0;
+  border-color: $gray-300;
+  border-style: solid;
+}
+
+.top-n15 {
+  top: -15%;
 }
