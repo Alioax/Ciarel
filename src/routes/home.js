@@ -27,7 +27,7 @@ const Home = () => {
             to="/portfolio"
             className="btn btn-lg btn-secondary fw-light  rounded-0"
           >
-            Portfolio
+            Portfolioooooo
           </Link>
         </div>
         <div className="col text-center">
