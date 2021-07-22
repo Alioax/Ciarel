@@ -9,20 +9,20 @@ export const VARIANT_FADE_IN = {
 };
 
 export const VARIANT_H1_INTRO = {
-  hidden: { x: "-50%", y: "-50%" },
-  visible: { x: "-100%", y: "-50%", borderRightWidth: "1px" },
+  hidden: { x: "50%" },
+  visible: { x: "0%", borderRightWidth: "1px" },
 };
 
 //try this without letterspacing
 
 // export const VARIANT_SUB_INTRO = {
-//   hidden: { x: "-50%", y: "-50%", opacity: 0, letterSpacing: "-8px" },
-//   visible: { x: "0%", y: "-50%", opacity: 1, letterSpacing: "4px" },
+//   hidden: { x: "-50%", opacity: 0, letterSpacing: "-8px" },
+//   visible: { x: "0%", opacity: 1, letterSpacing: "4px" },
 // };
 
 export const VARIANT_SUB_INTRO = {
-  hidden: { x: "-50%", y: "-50%", opacity: 0 },
-  visible: { x: "0%", y: "-50%", opacity: 1 },
+  hidden: { x: "-50%", opacity: 0 },
+  visible: { x: "0%", opacity: 1 },
 };
 
 //framer transitions

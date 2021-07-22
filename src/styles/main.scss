@@ -23,6 +23,9 @@ code {
 .z-index-1 {
   z-index: 1;
 }
+.z-index-n1 {
+  z-index: -1;
+}
 
 .border-potential-right {
   border-width: 0;
@@ -33,3 +36,61 @@ code {
 .top-n15 {
   top: -15%;
 }
+
+.margin-top-40vh {
+  margin-top: 40vh !important;
+}
+
+
+//start test
+html,
+body {
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.on {
+  justify-content: center !important;
+}
+
+body {
+  background: rgb(35, 224, 177);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.switch {
+  width: 160px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.4);
+  display: flex;
+  justify-content: flex-start;
+  border-radius: 50px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.switch[data-isOn="true"] {
+  justify-content: flex-end;
+}
+
+.handle {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 40px;
+}
+
+//end test
