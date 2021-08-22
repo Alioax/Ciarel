@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import reportWebVitals from "./reportWebVitals";
+
 import { BrowserRouter as Router } from "react-router-dom";
 
 import Utilities from "./components/utilities";
-import reportWebVitals from "./reportWebVitals";
 import Home from "./routes/home";
 
 ReactDOM.render(

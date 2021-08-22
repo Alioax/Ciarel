@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import "./blueprint.scss";
+@import "~bootstrap/scss/bootstrap";
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Lato", "Segoe UI", "Roboto",
@@ -5,6 +9,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-repeat: no-repeat;
+  background-color: $blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 a {
@@ -41,7 +50,6 @@ code {
   margin-top: 40vh !important;
 }
 
-
 //start test
 html,
 body {
@@ -56,14 +64,6 @@ body {
 
 .on {
   justify-content: center !important;
-}
-
-body {
-  background: rgb(35, 224, 177);
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 .App {
