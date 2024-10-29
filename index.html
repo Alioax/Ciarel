@@ -29,18 +29,20 @@
         }
 
         .fade-in-element {
-        opacity: 0;
-        animation: fadeIn 1s ease-in-out 3s forwards; /* Animation starts after 3 seconds */
-    }
-
-    @keyframes fadeIn {
-        from {
             opacity: 0;
+            animation: fadeIn 1s ease-in-out 3s forwards;
+            /* Animation starts after 3 seconds */
         }
-        to {
-            opacity: 1;
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
-    }
     </style>
 </head>
 
@@ -51,7 +53,7 @@
 
 
 
-            <h1 class="mb-5 display-1">Ali Haghighi</h1>
+            <h1 class="mb-5 display-1">Ali Haghighi (Quick test)</h1>
 
             <a href="https://drive.google.com/file/d/1_KGYkCja-atHeExMVho1bDhvPs2lsreM/view?usp=sharing"
                 class="h4 text-decoration-none fw-light" style="color:#0baedd">— Resume —</a>
@@ -60,7 +62,8 @@
 
 
     <div class="custom vw-100 text-center">
-        <span class="fade-in-element">"The environment is where we all meet; where all have a mutual interest; it is the one thing all of us
+        <span class="fade-in-element">"The environment is where we all meet; where all have a mutual interest; it is the
+            one thing all of us
             share."</span>
     </div>
 
